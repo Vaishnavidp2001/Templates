@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/background\ food\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: greenyellow;
+    padding: 15px 20px;
+    
+}
+#lef{
+    display: flex;
+    gap: 20px;
+}
+#rig{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(220, 20, 60);
+    font-size: 23px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: red;
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+main div{
+        width: 25%;
+        background-color: rgba(233, 233, 52, 0.554);
+        border-radius: 5px;
+}
+main div img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 10px;
+    opacity: 0.8;
+}
+main div img:hover{
+    opacity: 1;
+    transition: 2s;
+}
+main div h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 15px;
+    color: rgb(128, 22, 6);
+
+}
+main div p{
+    text-align:center;
+    color:rgb(9, 82, 238);
+    padding: 20px;
+    font-size: 20px;
+    
+}

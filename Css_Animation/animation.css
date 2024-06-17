@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    animation: disco 10s infinite;
+}  
+h1{
+    animation: color 2s infinite;
+}
+
+/* keyframe workd like funstion 1st create and then call the function */
+
+/* @keyframes disco{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: rgb(246, 84, 111);
+    }
+    100%{
+        background-color: brown;
+    }
+} */
+
+@keyframes color{
+    0%{
+        color: white;
+        font-size: 1rem;
+    }
+    25%{
+        color: aqua;
+        font-size: 4rem;
+    }
+    50%{
+        color: violet;
+        font-size: 1rem;
+    }
+    75%{
+        color: chartreuse;
+        font-size: 4rem;
+    }
+    100%{
+        color: crimson;
+        font-size: 1rem;
+    }
+}
+
+@keyframes disco{
+    0%{
+        background-image: url(./images/background\ font.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    25%{
+        background-image: url(./images/back3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./images/background\ food\ image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./images/background\ iamge.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./images/backimage2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

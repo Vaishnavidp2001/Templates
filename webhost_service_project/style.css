@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Lato:wght@400;700;900&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+
+* {
+  font-family: "Cabin", "Lato", "Poppins", "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_header {
+  background-color: #262d4a;
+  color: white;
+  padding: 0.6em;
+  display: flex;
+}
+
+.help_section {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+  margin-left: 7.5rem;
+}
+
+.top_header_btn {
+  height: 2rem;
+  width: fit-content;
+  background-color: #ffdf56;
+  color: rgba(255, 255, 255, 0.76);
+  margin-left: 33.5rem;
+  margin-top: -0.1rem;
+  padding: 1.5em 2.8em;
+  border: 1px groove white;
+}
+
+.vertical_line {
+  border: 1px solid white;
+  margin-left: 0.8rem;
+}
+
+.call {
+  font-weight: 400;
+  margin-left: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+.nav_bar {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.logo {
+  margin: 0 7rem;
+}
+
+.main_logo {
+  height: 1.6rem;
+}
+
+.menu {
+  display: flex;
+  margin: 0 25rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 1em;
+  color: #767676;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.hero_container {
+  margin-top: 1.5rem;
+}
+.hero_image {
+  background-image: url("./images/homebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -12rem 0rem;
+  height: 55rem;
+  opacity: .8;
+}
+
+.hero_text_container {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  color: #ffffffc9;
+}
+
+.hero_text{
+    font-family: 'montserrat';
+    word-spacing: .5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 14rem;
+}
+
+.service_container {
+  display: flex;
+  height: 40rem;
+  color: white;
+}
+
+.hosting_features{
+    font-size: 1.7rem;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+.form_container{
+    margin-top: 1rem;
+    padding: 1.3em;
+    background-color: rgba(198, 198, 198, 0.7);
+}
+
+.domain_name{
+    padding: 1.3em 8em 1.3em 0.3em;
+    
+}
+
+.drop_down{
+    background-color: #f7d025;
+    padding: 1.3em 1.3em;
+    margin-left: -1rem;
+}
+
+.check_btn{
+    padding: 1.4em 1em;
+    margin-left: -.1rem;
+    background-color: #f7d025;
+    border: none;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+
+}
+.first_service {
+  background-color: #232843;
+  width: 50%;
+}
+
+.service_image {
+  margin: 7rem 0 0 16rem;
+}
+
+.service_image2 {
+  font-size: 8rem;
+  color: #232843;
+  margin: 10rem 0 0 12rem;
+}
+
+.service_name {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: 300;
+  font-family: "Lato";
+}
+
+.service_name2 {
+  margin: 0.8rem 0 1rem;
+}
+
+.second_service {
+  background-color: #ffdf56;
+  width: 50%;
+}
+
+.service_detail_container {
+  height: 4rem;
+  width: 27rem;
+  line-height: 1.5;
+  margin: 1rem auto;
+}
+
+.service_detail {
+  text-align: center;
+  font-weight: 100;
+}
+
+.service_btn {
+  font-family: "Montserrat";
+  padding: 1.2rem 3.5rem;
+  background-color: transparent;
+  border:1px solid white;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin: 4rem 0 0 15rem;
+}
+
+.feature_container{
+    height: 40rem;
+    background-color: #FBF8F1;
+}
+
+.feature_bg_image{
+    background-image: url('./images/featurebg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 23rem 2rem;
+    margin: auto;
+    height: 100%;
+}
+
+.titles{
+    width: 100%;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.feature_title{
+    font-size: 3rem;
+    color: #232843;
+    margin-bottom: .5rem;
+    font-family: 'montserrat';
+}
+
+.feature_subtitle{
+    font-size: 1.3rem;
+    color: #233569;
+    font-family: 'montserrat';
+    font-weight: 400;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.other_feature_container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -25rem;
+  margin-left: 6rem;
+  width: 74rem;
+}
+
+
+.thick_black_underline{
+  height: 0.2rem;
+  width: 4rem;
+  background-color: #8B8C97;
+}
+
+.yellow_text{
+  color:#FAD044;
+  font-size: 2rem;
+  font-family: 'times new roman';
+}
+
+.feature_description{
+  font-size: .9rem;
+  text-align: center;
+}
+
+.clients_container{
+  height: 35rem;
+}
+
+.top_section{
+  display: flex;
+  margin-top: 5rem;
+}
+
+.our_clients{
+  margin-left: 6rem;
+  width: 15rem;
+  height: 10rem;
+}
+
+.client_title{
+  color: #575757;
+  font-family:'Montserrat' ;
+}
+
+.client_subtitle{
+  font-family:'Montserrat' ;
+  font-size: .7rem;
+  margin-top: .5rem;
+}
+
+.companies_logo{
+  width: 52rem;
+  height: 9rem;
+  margin-left: 9.5rem;
+}
+
+.separate_logo{
+  margin-right: 2rem;
+}
+.testimonial_container{
+  height: 20rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.review{
+  width: 22rem;
+  height: 12rem;
+  background-color: #FAF9F9;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-size: .8rem;
+  line-height: 1.5;
+}
+
+.review p{
+  margin: 1.5rem;
+}
+
+.reviewer_name{
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  margin-left: 1rem;
+}
+
+
+.reviewer_image{
+  margin-left: 15.5rem;
+  margin-top: -1rem;
+}
+
+.footer{
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid black;
+
+}
